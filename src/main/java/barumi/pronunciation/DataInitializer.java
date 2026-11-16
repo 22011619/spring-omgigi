@@ -34,7 +34,7 @@ public class DataInitializer implements CommandLineRunner {
         User savedUser = userRepository.save(testUser);
 
         Sentence s1 = sentenceRepository.save(Sentence.builder()
-                .content("사과가 맛있습니다.")
+                .content("사과가 맛있습니다.123")
                 .tag("치조 마찰음(ㅅ)")
                 .build());
         Sentence s2 = sentenceRepository.save(Sentence.builder()
