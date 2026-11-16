@@ -13,7 +13,7 @@ import org.springframework.transaction.annotation.Transactional;
 
 @Component
 @RequiredArgsConstructor
-public class DataInitializer implements CommandLineRunner {
+public class DataInitializer implements CommandLineRunner { // 실행 테스트 파일
 
     private final UserRepository userRepository;
     private final SentenceRepository sentenceRepository;
